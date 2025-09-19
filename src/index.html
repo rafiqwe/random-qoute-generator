@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Random qoute generator</title>
-</head>
-<body class="bg-black">
-    <div class="flex text-white  items-center justify-center w-[95%] mx-auto h-screen">
-        <div class="w-[70%] bg-cover shadow-[0px_4px_6px_0px_rgba(147,_51,_234,_0.5)] bg-[url(./gradient.webp)] h-[80vh] rounded-xl p-4 border-2 border-gray-600">
-            <div class="capitalize font-bold  text-center mt-8">
-                <h1 class="text-2xl">generate qoute</h1>
-                <p class="text-sm text-gray-500">click below</p>
-            </div>
-            <div class="mt-10 shadow-[1px_1px_34px_7px_rgba(249,_115,_22,_0.5)]  w-[88%] mx-auto h-40  rounded-xl p-4 flex items-center justify-center
-            ">
-            <h1 id="qoute" class="text-md font-semibold underline">If you watch a dream so you can do it
-
-                wKSTCHnr40KxODQzgcmjoA==8BoHnZu1wlfeFQmR
-
-                https://api.api-ninjas.com/v1/quotes?category=success
-
-            </h1>
-            </div>
-            <div class="mt-20 mx-auto w-full flex items-center justify-center">
-                <button id="generateBtn" class="bg-blue-500 py-2 px-6 rounded-lg text-md font-bold cursor-pointer">Generate qoute</button>
-            </div>
+  </head>
+  <body class="bg-black">
+    <div
+      class="flex text-white items-center justify-center w-[95%] mx-auto h-screen"
+    >
+      <div
+        class="w-[70%] bg-cover shadow-[0px_4px_6px_0px_rgba(147,_51,_234,_0.5)] bg-[url(./gradient.webp)] h-[80vh] rounded-xl p-4 border-2 border-gray-600"
+      >
+        <div class="capitalize font-bold text-center mt-8">
+          <h1 class="text-2xl">generate qoute</h1>
+          <p class="text-sm text-gray-500">click below</p>
         </div>
+        <div
+          class="mt-10 shadow-[1px_1px_34px_7px_rgba(249,_115,_22,_0.5)] w-[88%] mx-auto h-40 rounded-xl p-4 flex items-center justify-center"
+        >
+          <h1 id="qoute" class="text-md font-semibold">
+            Sleep is the best meditation.
+          </h1>
+        </div>
+        <div
+          class="mt-20 mx-auto w-full flex items-center flex-col justify-center"
+        >
+          <h1 id="author" class="mb-2 font-bold">Author: Muhammad Rabbi</h1>
+          <button
+            id="generateBtn"
+            class="bg-blue-500 py-2 px-6 rounded-lg text-md font-bold cursor-pointer"
+          >
+            Generate qoute
+          </button>
+        </div>
+      </div>
     </div>
     <script type="module" src="../dist/script.js"></script>
-</body>
+  </body>
 </html>
